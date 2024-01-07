@@ -53,43 +53,102 @@ header .container h1 {
 }
 
 /* catagory Section  */
-.catagory_section{
+.catagory_section {}
 
-}
-.catagory_section .container{
+.catagory_section .container {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.catagory_section .container h1{
+
+.catagory_section .container h1 {
     color: #F00;
-text-align: center;
-font-family: Inter;
-font-size: 88px;
-font-weight: 700;
-text-transform: uppercase;
-margin-bottom: 48px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 48px 0;
 }
-.catagory_section .container h4{
+
+.catagory_section .container h4 {
     color: #F00;
-text-align: center;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-text-transform: uppercase;
-/* line-height: 1.5; */
-margin-bottom: 10px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    /* line-height: 1.5; */
+    margin-bottom: 10px;
 
 }
-.catagory_section .container h2{
+
+.catagory_section .container h2 {
     color: #070211;
-text-align: center;
-font-family: Inter;
-font-size: 48px;
-font-weight: 700;
-text-transform: uppercase;
-margin-bottom: 48px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 48px;
 }
-.catagory_section .container img{
 
+.catagory_section .container img {}
+
+/* welcome section css */
+.welcome_section {}
+
+.welcome_section .container {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('../resources/Vectorrr.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.welcome_section .container .content{
+    padding-left: 7rem;
+    width: 697px;
+}
+
+.welcome_section .container img{
+    margin-right: 8rem;
+}
+
+.welcome_section .container h1 {
+    color: #FFF;
+    font-family: 'Merriweather';
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+
+.welcome_section .container p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 20px 0;
+
+}
+
+.welcome_section .container button {
+    cursor: pointer;
+    border: none;
+    transition: all 1s;
+    background: transparent;
+    color: #FFF;
+    text-align: left;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.welcome_section .container button:hover{
+    color: #F00;
 }
