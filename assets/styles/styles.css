@@ -438,6 +438,7 @@ header .container h1 {
     padding: 1rem;
     font-size: 1rem;
     outline: none;
+    border: none ;
 }
 
 .subscribe_section .container .input_box button {
