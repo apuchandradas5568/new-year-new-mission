@@ -22,6 +22,21 @@ ul {
     margin: 50px auto;
 }
 
+.btn {
+    padding: 16px 32px;
+    background: #F00;
+    transition: all .5s;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.btn:hover {
+    transform: scale(.9);
+
+}
+
 /* Header Part CSS */
 header .container {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('../resources/banner.png');
@@ -109,12 +124,12 @@ header .container h1 {
     justify-content: space-between;
 }
 
-.welcome_section .container .content{
+.welcome_section .container .content {
     padding-left: 7rem;
     width: 697px;
 }
 
-.welcome_section .container img{
+.welcome_section .container img {
     margin-right: 8rem;
 }
 
@@ -149,6 +164,38 @@ header .container h1 {
     font-weight: 700;
     text-transform: uppercase;
 }
-.welcome_section .container button:hover{
+
+.welcome_section .container button:hover {
     color: #F00;
+}
+
+
+/* Join Now Section */
+.join_now_section {}
+
+.join_now_section .container {
+    height: 482px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 120px auto;
+}
+
+.join_now_section .container p {
+    color: #070211;
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.join_now_section .container p span {
+    color: #F00;
+}
+.join_now_section .container .btn{
+    border-radius: 8px;
+    margin-top: 1rem;
 }
