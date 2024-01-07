@@ -79,7 +79,7 @@ header .container h1 {
 .catagory_section .container h1 {
     color: #F00;
     text-align: center;
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 88px;
     font-weight: 700;
     text-transform: uppercase;
@@ -89,7 +89,7 @@ header .container h1 {
 .catagory_section .container h4 {
     color: #F00;
     text-align: center;
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 24px;
     font-weight: 500;
     text-transform: uppercase;
@@ -101,7 +101,7 @@ header .container h1 {
 .catagory_section .container h2 {
     color: #070211;
     text-align: center;
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 48px;
     font-weight: 700;
     text-transform: uppercase;
@@ -153,7 +153,7 @@ header .container h1 {
 }
 
 .welcome_section .container button {
-    cursor: pointer;
+    cursor: po'inter';
     border: none;
     transition: all 1s;
     background: transparent;
@@ -195,7 +195,281 @@ header .container h1 {
 .join_now_section .container p span {
     color: #F00;
 }
-.join_now_section .container .btn{
+
+.join_now_section .container .btn {
     border-radius: 8px;
     margin-top: 1rem;
+}
+
+.new_best_offer_sec {}
+
+.new_best_offer_sec .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+}
+
+.new_best_offer_sec .container .left_title {
+    color: #F00;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.new_best_offer_sec .container h3 {
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.new_best_offer_sec .container p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+    margin: 1rem 0;
+}
+
+.new_best_offer_sec .container>div:nth-child(2) {
+    border-radius: 463px;
+    border: 15px solid #F00;
+    text-align: center;
+    padding: 1rem;
+}
+
+.new_best_offer_sec .container img.middle {
+
+    width: 463px;
+    height: 463px;
+    flex-shrink: 0;
+}
+
+.new_best_offer_sec .container h2 {
+    color: #F00;
+    font-family: 'Inter';
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.new_best_offer_sec .container img.right {
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
+}
+
+
+
+/* discount section */
+.discount_section {
+    margin: 130px 0;
+}
+
+.discount_section .container {}
+
+.discount_section .container h3 {
+    color: #070211;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.discount_section .container h1 {
+    color: #F00;
+    text-align: center;
+    font-family: 'Merriweather';
+    font-size: 72px;
+    font-weight: 900;
+    margin: 1rem 0;
+}
+
+.discount_section .container h1 span {
+    color: #070211 !important;
+}
+
+.discount_section .container p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    /* 160% */
+    width: 868px;
+    margin: 0 auto;
+}
+
+.discount_section .container .img_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url('../resources/Rectangle\ 2.png') no-repeat;
+    background-position: bottom;
+    margin-top: 3rem;
+}
+
+.discount_section .container .img_box .left {}
+
+.discount_section .container .img_box .left img {}
+
+.discount_section .container .img_box .right {
+    background: url('../resources/Rectangle\ 1.png');
+    margin-bottom: 14.3rem;
+    /* position: relative; */
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+}
+
+.discount_section .container .img_box .right img {
+    margin-left: -7rem;
+    margin-top: 4.5rem;
+
+}
+
+/* portfolio sectioin */
+.portfolio_section {
+    margin-top: 130px;
+}
+
+.portfolio_section .container {}
+
+.portfolio_section .container h3 {
+    color: #F00;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.portfolio_section .container h1 {
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 1rem 0;
+}
+
+.portfolio_section .container p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+    width: 896px;
+}
+
+.portfolio_section .container .img_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.portfolio_section .container .img_box .img {
+    flex: 3;
+    transition: all 1s;
+    cursor: pointer;
+    border-radius: .5rem;
+    margin-bottom: .75rem;
+}
+
+.portfolio_section .container .img_box .img:hover {
+    transform: scale(1.01);
+}
+
+.portfolio_section .container .img_box .img img {}
+
+
+
+/* subscribe section */
+.subscribe_section {}
+
+.subscribe_section .container {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    height: 616px;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 120px auto;
+}
+
+.subscribe_section .container img {
+    width: 150px;
+    height: 150px;
+    margin-top: 3rem;
+}
+
+.subscribe_section .container h1 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 1rem 0;
+}
+
+.subscribe_section .container p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+    width: 896px;
+    margin: 1rem auto;
+}
+
+.subscribe_section .container .input_box {
+    width: 648px;
+    height: 72px;
+    flex-shrink: 0;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.subscribe_section .container .input_box input {
+    border-radius: 50px 0 0 50px;
+    background: #FFF;
+    height: 30px;
+    width: 300px;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    /* border: none; */
+    outline: none;
+}
+
+.subscribe_section .container .input_box button {
+    width: 210px;
+    height: 61px;
+    flex-shrink: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    margin-left: -.25rem;
+}
+
+.subscribe_section .container .input_box button:hover {
+    transform: scale(1);
+    font-weight: 600;
 }
